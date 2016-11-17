@@ -120,16 +120,6 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
   background: url('/assets/img/theme/low-poly-grey.png') no-repeat top center fixed;
   background-size: cover;
 }
-#contact:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(to bottom right, #00a, #dc4225);
-  opacity: .5;
-}
 
 .social-cont { max-width: 400px; }
 a.btn-default { height: 44px; border-radius: 0; border: 0; width: 180px; text-align: left; margin: 0 5px 10px 0; position: relative; background-color: #FFFFFF; padding: 10px; transition: all .35s; padding: 0; line-height: 47px; overflow: hidden; }
