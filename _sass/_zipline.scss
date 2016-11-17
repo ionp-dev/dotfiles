@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #fff, #dc4225);
+  background-image: linear-gradient(to bottom right, #00a, #dc4225);
   opacity: .5;
 }
 #home h1 {
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
   margin-top: 60px;
 }
 #home h1:after { border-bottom: 1px solid #AAA;  }
-#home h5 { font-size: 16px; color: #555; }
+#home h5 { font-size: 16px; color: #111; }
 
 @media screen and (min-width: 768px) {
   #home h1 { font-size: 120px; line-height: 114px; }
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #fff, #dc4225);
+  background-image: linear-gradient(to bottom right, #00a, #dc4225);
   opacity: .5;
 }
 
