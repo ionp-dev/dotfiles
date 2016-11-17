@@ -1,0 +1,19 @@
+# Setup
+title:      Ion Pantalon
+tagline:    software development
+baseurl:    ""
+paginate:   1
+permalink:  /blog/:year/:month/:day/:title
+
+# About/contact
+author:
+  name:     Ion Pantalon
+  url:      http://www.ion-pantalon.com 
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
+highlighter: rouge
