@@ -60,9 +60,30 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; col
 #home {
   /*background: url('/assets/img/theme/fog_1005445_1920.jpg') no-repeat center center fixed;*/
   background: url('/assets/img/theme/low-poly-grey.png') no-repeat center center fixed;
-  background-size: cover; text-shadow: 1px 1px 0 rgba(255,255,255,0.5); text-align: center;
+  background-size: cover;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+  text-align: center;
 }
-#home h1 { font-family: 'Advent Pro', sans-serif; font-size: 96px; color: #000; display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
+#home:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: .5;
+}
+#home h1 {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 96px;
+  color: #000;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 90px;
+  margin-top: 60px;
+}
 #home h1:after { border-bottom: 1px solid #AAA;  }
 #home h5 { font-size: 16px; color: #555; }
 
